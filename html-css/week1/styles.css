@@ -1,0 +1,29 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.table {
+  position: relative;
+}
+.title {
+  position: fixed;
+  color: green;
+}
+
+@media (min-width: 48rem) {
+  .title {
+    color: red;
+  }
+}
+button {
+  cursor: pointer;
+
+  &:hover {
+    color: red;
+  }
+
+  &:focus {
+    color: blue;
+  }
+}

@@ -1,1 +1,2 @@
 This is my Git assignment.
+I am practicing Git branches and commits.
